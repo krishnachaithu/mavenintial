@@ -3,7 +3,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <version>1</version>
-  </projec<distributionManagement>
+  <distributionManagement>
     <repository>
     <id>releases</id>
     <url>http://192.168.33.15:8081/nexus/content/repositories/releases</url>
@@ -12,4 +12,5 @@
     <id>snapshots</id>
     <url>http://192.168.33.15:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
-  </distributionManagement>t>
+  </distributionManagement>
+</project>
