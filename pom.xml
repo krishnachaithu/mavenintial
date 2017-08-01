@@ -13,4 +13,21 @@
     <url>http://192.168.33.15:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
+ 
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>org.sonatype.mavenbook.App</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+  
 </project>
